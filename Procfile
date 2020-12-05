@@ -1,4 +1,4 @@
-web: gunicorn app:test1
+web: gunicorn test1:app
 worker: mlflow ui -p 5000 --host 0.0.0.0 
 
 
