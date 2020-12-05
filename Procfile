@@ -1,4 +1,4 @@
-web: mlflow server
+web: mlflow server --host 0.0.0.0
 worker: mlflow ui -p 5000 --host 0.0.0.0 
 
 
